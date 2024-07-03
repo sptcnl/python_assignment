@@ -26,8 +26,8 @@ def rsp(win=0, lose=0, tie=0):
                 print(f"컴퓨터: {random_rsp}, 이김")
 
             else:
-                win += 1
-                print(f"컴퓨터: {random_rsp}, 이김")
+                lose += 1
+                print(f"컴퓨터: {random_rsp}, 짐")
 
             break
 
